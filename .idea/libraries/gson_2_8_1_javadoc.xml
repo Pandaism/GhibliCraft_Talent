@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="gson-2.8.1-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../lib/gson-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lib/mongo-java-driver-3.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lib/spigot-1.12.1-R0.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lib/spigot-api-1.12.1-R0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../lib/gson-2.8.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../lib/mongo-java-driver-3.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../lib/spigot-1.12.1-R0.1-SNAPSHOT.jar!/" />
+    </SOURCES>
+  </library>
+</component>

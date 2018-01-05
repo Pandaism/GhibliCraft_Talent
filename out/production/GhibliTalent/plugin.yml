@@ -1,0 +1,11 @@
+name: GhibliTalent
+main: com.ghiblicraft.talent.GhibliTalent
+version: 1.0.0
+
+commands:
+    reloadtalent:
+        description: Reload talents into database
+        usage: /reloadtalent
+    pmenu:
+        description: Placeholder command to show talent window
+        usage: /pmenu
