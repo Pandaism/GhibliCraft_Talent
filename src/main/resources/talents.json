@@ -1,0 +1,164 @@
+//keywords for requirements: Level, Item, Talent, Quest,
+{
+  "families":[
+    {
+      "name":"Arcane",
+      "slot":10,
+      "description":"Specialize in the art of arcane magic",
+      "tiers":[
+        {
+          "nodes":{
+            "Tier 1":[
+              {
+                "name":"Arcane Missile",
+                "slot":0,
+                "requirements":[
+
+                ],
+                "parent":true,
+                "child":"Arcane Volley",
+                "maxLevel":1,
+                "description":[
+                  "Fire Single Arcane Missile at the target"
+                ]
+              },
+              {
+                "name":"Blink",
+                "slot":3,
+                "requirements":[
+
+                ],
+                "parent":false,
+                "child":"",
+                "maxLevel":3,
+                "description":[
+                  "Teleport caster 2 block forward",
+                  "Teleport caster 3 block forward",
+                  "Teleport caster 4 block forward"
+                ]
+              },
+              {
+                "name":"Conjure",
+                "slot":5,
+                "requirements":[
+
+                ],
+                "parent":false,
+                "child":"",
+                "maxLevel":4,
+                "description":[
+                  "Conjure up a piece of weak food",
+                  "Conjure up 2 pieces of weak food",
+                  "Conjure up 1 pieces of satisfying food",
+                  "Conjure up 1 pieces of satisfying food"
+                ]
+              }
+            ],
+            "Tier 2":[
+              {
+                "name":"Arcane Volley",
+                "slot":9,
+                "requirements":[
+                  "Level: 5",
+                  "Talent: Arcane Missile"
+                ],
+                "parent":false,
+                "child":"",
+                "maxLevel":2,
+                "description":[
+                  "Volley the target 2 missiles",
+                  "Volley the target with 3 missiles"
+                ]
+              },
+              {
+                "name":"Leviate",
+                "slot":11,
+                "requirements":[
+                  "Level: 8"
+                ],
+                "parent":false,
+                "child":"",
+                "maxLevel":1,
+                "description":[
+                  "Floating is cool"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name":"Derp",
+      "slot":28,
+      "description":"Useless completely derp, but funny very very funny",
+      "tiers":[
+        {
+          "nodes":{
+            "Tier 1":[
+              {
+                "name":"Derp",
+                "slot":0,
+                "requirements":[
+
+                ],
+                "parent":true,
+                "child":"Hyper Derp",
+                "maxLevel":1,
+                "description":[
+                  "Level 1"
+                ]
+              }
+            ],
+            "Tier 2":[
+              {
+                "name":"Hyper Derp",
+                "slot":10,
+                "requirements":[
+                  "Level: 5",
+                  "Talent: Derp"
+                ],
+                "parent":true,
+                "child":"Insane Derp",
+                "maxLevel":2,
+                "description":[
+                  "Hyper DERPER"
+                ]
+              },
+              {
+                "name":"Mental",
+                "slot":12,
+                "requirements":[
+                  "Level: 6"
+                ],
+                "parent":true,
+                "child":"Insane Derp",
+                "maxLevel":1,
+                "description":[
+                  "I am mental"
+                ]
+              }
+            ],
+            "Tier 3":[
+              {
+                "name":"Insane Derp",
+                "slot":18,
+                "requirements":[
+                  "Talent: Hyper Derp",
+                  "Talent: Mental",
+                  "Level: 10"
+                ],
+                "parent":false,
+                "child":"",
+                "maxLevel":1,
+                "description":[
+                  "Too insane for this world"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
